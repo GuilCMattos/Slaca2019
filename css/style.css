@@ -9,13 +9,6 @@
 
 :root {
   font-size: 62.5%;
-  --fonttitlecolor: #ED7839;
-  --bgheader: #FDF1EB;
-  --fontcolormenu: #725C5C;
-  --fontcolorresume: #5C5C5C;
-  --fontcolorsubtitleresume: #5C5C5C;
-  --fontcolortextdicuss: #4D4D4D;
-  --fontcolortexttitle: #4E4E4E;
   --fontprimary: 'Quicksand', sans-serif;
   --fontsecundary: 'Roboto', sans-serif;
 }
@@ -50,13 +43,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--fontcolormenu);
+  color: #725C5C;
 }
 
 nav ul li:hover {
   background: #FDF1EB;
   padding-left: 3rem;
-  border-left: 0.6rem solid var(--fonttitlecolor);
+  border-left: 0.6rem solid #ED7839;
 
 
 }
@@ -92,7 +85,7 @@ header .headerTitle h2,
 h5 {
   font-family: var(--fontsecundary);
   font-weight: 400;
-  color: var(--fontcolortexttitle);
+  color: #4E4E4E;
 
 }
 
@@ -164,7 +157,7 @@ main .videoSect .video {
   max-width: 78.3rem;
 }
 
-.video img { 
+main .videoSect .video img { 
   width: 100%;
 }
 
@@ -172,7 +165,7 @@ main .videoSect .video h1 {
   font-family: var(--fontsecundary);
   font-size: 2rem;
   font-weight: 900;
-  color: var(--fonttitlecolor);
+  color: #ED7839;
   margin-bottom: 1.9rem;
 }
 
@@ -191,7 +184,7 @@ main .details .buttons button {
   font-family: var(--fontsecundary);
   font-size: 1.6rem;
   color: white;
-  background-color: var(--fonttitlecolor);
+  background-color: #ED7839;
   border-radius: 4px;
   border: none;
   cursor: pointer;
